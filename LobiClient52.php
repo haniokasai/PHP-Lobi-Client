@@ -1,5 +1,6 @@
 <?php
 is_readable("motd")?print(file_get_contents("motd")):null;
+date_default_timezone_set('Asia/Tokyo');
 
 global $api;
 $api = new LobiAPI();
